@@ -1,34 +1,37 @@
-# 🗂️ Cloud-Powered Task Manager
+# ✅ Cloud-Powered Task Manager Web App
 
-A simple CRUD-based task manager web application built with **Python (Flask)** and **IBM Cloudant NoSQL Database**, allowing users to create, view, update, and delete tasks via a clean web interface.
+A modern task manager built with **Flask** and backed by **IBM Cloudant NoSQL Database**, supporting multiple users, intelligent task features, and a clean interface for managing daily to-dos.
 
 ---
 
 ## 🚀 Features
 
-- Create, Read, Update, and Delete (CRUD) task entries
-- Responsive user interface using HTML & CSS
-- Cloud-native backend with IBM Cloudant NoSQL DB
-- Environment variables for secure credential handling
+- **User Registration & Login** – Multi-user support with secure session-based authentication.
+- **CRUD Task Operations** – Add, view, update, delete, and toggle task completion.
+- **Priority Tagging** – Tag tasks as `High`, `Medium`, or `Low` priority.
+- **Due Date Indicators** – Visual cues for `Due Soon` and `Overdue` tasks.
+- **Task Categories** – Categorize tasks as `Work`, `Personal`, or `Other`.
+- **Weekly Task Summary** – View stats for tasks completed vs pending in the past 7 days.
+- **Smart Suggestions** – Auto-prioritize or auto-categorize tasks based on keywords.
+- **User Profiles** – Each user sees only their own tasks.
+- **Email Digest** *(Coming Soon)* – Optional email summary of tasks.
+- **Responsive Design** – Styled using Bootstrap 5.
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
-| Layer       | Technology                       |
-|-------------|----------------------------------|
-| Frontend    | HTML, CSS, JavaScript            |
-| Backend     | Python, Flask                    |
-| Database    | IBM Cloudant NoSQL DB            |
-| Hosting     | Localhost (for development)      |
-| Dev Tools   | Visual Studio Code, Python 3     |
+- **Frontend**: HTML, CSS (Bootstrap 5), Jinja2 Templates  
+- **Backend**: Flask (Python)
+- **Database**: IBM Cloudant NoSQL (2 DBs – `users` and `tasks`)
+- **Auth**: Flask Sessions
+- **Hosting**: Run locally or deploy to IBM Cloud / Render / Heroku
 
 ---
 
-## 🔧 Setup Instructions
+## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/cloud-task-manager.git
-cd cloud-task-manager
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/cloud-task-manager.git
+   cd cloud-task-manager
